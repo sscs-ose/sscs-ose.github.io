@@ -13,23 +13,19 @@ Why this page? ...
 
 ## General information about open-source IC design
 
-tbd
+Under construction.
 
 ## Digital IC design
-
-tbd
 
 Find more information [here](https://sscs-ose.github.io/digital).
 
 ## Analog IC design
 
-tbd
-
 Find more information [here](https://sscs-ose.github.io/analog).
 
 ## Chipathon 2022
 
-tbd
+Coming soon...
 
 ## Contact
 
