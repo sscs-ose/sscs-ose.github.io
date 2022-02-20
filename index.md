@@ -5,8 +5,11 @@ subtitle: IEEE SSCS Open-Source Ecosystem
 description: The pages meta description
 ---
 
-<img src="/assets/images/sscs-header-25th.png" width="400" align="right" style="padding-right: 30px; padding-bottom: 20px;">This is the homepage of the IEEE Solid-State Circuits Society (SSCS) Open-Source Ecosystem.
+This is the homepage of the IEEE Solid-State Circuits Society (SSCS) Open-Source Ecosystem.
 
+## Charta of the SSCS OSE
+
+Why this page? ...
 
 ## General information about open-source IC design
 
