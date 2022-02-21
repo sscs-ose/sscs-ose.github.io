@@ -7,13 +7,17 @@ description: The pages meta description
 
 This is the homepage of the IEEE Solid-State Circuits Society (SSCS) Open-Source Ecosystem.
 
-## Charta of the SSCS OSE
+## About
 
-Why this page? ...
+Coming soon.
 
 ## General information about open-source IC design
 
-Under construction.
+Coming soon.
+
+## SkyWater Technologies SKY130
+
+Coming soon.
 
 ## Digital IC design
 
@@ -22,10 +26,6 @@ Find more information [here](https://sscs-ose.github.io/digital).
 ## Analog IC design
 
 Find more information [here](https://sscs-ose.github.io/analog).
-
-## Chipathon 2022
-
-Coming soon...
 
 ## Contact
 
