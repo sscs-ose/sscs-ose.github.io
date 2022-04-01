@@ -7,3 +7,7 @@ callouts: analog_ic
 ---
 
 Under construction.
+
+
+IEEE SSCS Youtube Channel: [https://www.youtube.com/c/IEEESolidStateCircuitsSociety/](https://www.youtube.com/c/IEEESolidStateCircuitsSociety/)
+* Featuring "circuit insights" videos and various short course content
