@@ -6,4 +6,55 @@ subtitle: All things related to open-source digital IC design
 callouts: digital_ic
 ---
 
-Under construction.
+## Digital IC Design
+
+As you read on our main page, digital design is starting with a high-level, textual description, and ends with a layout representation in GDS format. The main steps along this route are detailed in the following chapters.
+
+### Simulation
+
+Hand-in-hand with the creation of the Verilog behavioural description is the simulation (for writing Verilog code you just need a text editor).
+
+The following Verilog simulators are available:
+
+* [Icarus Verilog](https://github.com/steveicarus/iverilog.git)
+* [Verilator](https://github.com/verilator/verilator)
+
+We recomment Icarus Verilog (`iverilog`) for most simulation tasks, as it is a bit easier to handle than `verilator`. However, if you want to simulate large designs, `verilator` is the way to go as it is much faster.
+
+Both digital circuit simulators produce output results which can be viewed with * [GTKWave](https://github.com/gtkwave/gtkwave), which is a waveform plot tool for digital simulation.
+
+If you prefer to write VHDL, there is also a [simulator for that](https://github.com/ghdl/ghdl).
+
+### Writing Verilog code
+
+Writing good Verilog code is an art by itself and requires practice. There are a few online courses available. One possibility to get you started is this [tutorial](https://www.chipverify.com/verilog/verilog-tutorial), but there are many more—Google it!
+
+What you definitely should do is to use [linting](https://en.wikipedia.org/wiki/Lint_(software)), means using static code analysis to spot typical errors. Both `iverilog` and `verilator` support code linting, so use both.
+
+For advanced digital designers using [code coverage analysis] (https://github.com/hpretl/verilog-covered) might be an option.
+
+### Synthesis
+
+Once you have written behavioural code in Verilog, it needs to be translated to register-transfer level (RTL), essential a gate netlist. This step is called synthesis, and the go-to tool for this step is [Yosys](https://github.com/YosysHQ/yosys).
+
+The synthesis step is non-trivial, as there is a difference between the behavioural code that you can write in Verilog, and a code which is synthesizable. We propose to run test syntheses in `yosys`, and carefully watch the warnings and errors. 
+
+### RTL2GDS
+
+Synthesis is also the first step in the [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane) RTL2GDS flow. This flow consists of a sequence of steps:
+
+![OpenLane flow](https://github.com/The-OpenROAD-Project/OpenLane/blob/master/docs/_static/openlane.flow.1.png?raw=true)
+
+The multitude of tools is controlled by settings which are described [here](https://github.com/The-OpenROAD-Project/OpenLane/blob/master/configuration/README.md).
+
+### Installation of Tools and PDK
+
+The installation of OpenLane and the SKY130 PDK can be tricky, but is described [here](https://github.com/The-OpenROAD-Project/OpenLane) (see "Setting Up OpenLane"). The proposed installation uses [Docker](https://www.docker.com), which is available for the major computing platforms.
+
+Alternatively, there are a number of other solutions available, you can check the Slack channel for options. For a curated, pre-installed Docker image containing PDK and large number of tools, you can either check [here](https://github.com/efabless/foss-asic-tools) or [here](https://github.com/hpretl/iic-osic-tools) (the later Docker image runs on `x86_64` as well as `aarch64`).
+
+### Caravel SoC
+
+Once your digital IP block is ready you might want to create a complete IC and send it for fabrication. Getting from an IP block to a complete IC (including pads, ESD protection, power supply network, reset and clocking circuitry) can be a cumbersome undertaking.
+
+Luckily, there exists a framework, an "empty shell" so to speak, from [efabless](https://efabless.com), called [Caravel](https://github.com/efabless/caravel_user_project). On the efabless homepage you can find various examples of earlier chip designs, our proposal is take one of these designs as a starting base, e.g. [this one](https://github.com/hpretl/iic-audiodac-v1).
