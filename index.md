@@ -15,7 +15,7 @@ Welcome to the IEEE SSCS Open-Source Ecosystem page! This site aims to provide l
 
 Open-source IC design tools have come a long way in the last years. While the start can be confusing, plenty of information is freely available on the Internet.
 
-To get you started, please look at Matt Venn's collection of [Awesome opensource ASIC resources](https://github.com/mattvenn/awesome-opensource-asic-resources). On this GitHub page, many links are collected to several tools and information sites. Generally, it is a good idea to get a [GitHub](https://github.com) account since many of the relevant SW packages are hosted there.
+Please look at Matt Venn's collection of [Awesome opensource ASIC resources](https://github.com/mattvenn/awesome-opensource-asic-resources) to get you started. Many links are collected to several tools and information sites on this GitHub page. Generally, it is good to get a [GitHub](https://github.com) account since many of the relevant SW packages are hosted there.
 
 In addition to GitHub, [YouTube](https://www.youtube.com) is a treasure trove of helpful information. Many users have published tutorials; sometimes, the lead developers of essential tools publish How-To videos themselves. Once you know what to look for, you will be able to find it. *Hint: Search for a specific tool you want to learn.*
 
@@ -41,13 +41,15 @@ While this process is a mature node (and a far cry from a leading nm-FinFET node
 
 Here is an excellent [device overview](https://skywater-pdk.readthedocs.io/en/main/rules/device-details.html) of this technology. There is also a rich set of [digital standard cells](https://skywater-pdk.readthedocs.io/en/main/contents/libraries/foundry-provided.html) available.
 
+In [this sheet](https://docs.google.com/spreadsheets/d/1oL6ldkQdLu-4FEQE0lX6BcgbqzYfNnd1XA8vERe0vpE), you can find a summary of the various mask (GDS) layers, wiring resistance and capacitance, and electromigration rules.
+
 ## Digital IC Design
 
 Digital circuit design in the modern era uses a flow, usually starting with a high-level behavioral description. The main two hardware description languages (HDL) used nowadays are [Verilog](https://en.wikipedia.org/wiki/Verilog) and [VHDL](https://en.wikipedia.org/wiki/VHDL). We propose to use **Verilog**, as the support in the open-source tools is generally a bit better.
 
 Once you are happy with your behavioral model, a suite of tools takes you from Verilog to **GDS** (the geometric mask data file format you send for production to a foundry). This methodology is called **RTL2GDS**, and [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane) is the flow we propose to use.
 
-Find more information on how to approach a digital design [here](https://sscs-ose.github.io/digital).
+Find more information on how to approach a digital design [see here](https://sscs-ose.github.io/digital).
 
 If you consider Verilog and VHDL old-school (we don't), there is a rich host of advanced methodologies collected by [Andreas Olofsson](https://github.com/aolofsson/awesome-hardware-tools) to get you started.
 
