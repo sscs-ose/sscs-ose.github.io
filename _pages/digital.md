@@ -29,7 +29,7 @@ If you prefer to write VHDL, there is also a [simulator for that](https://github
 
 Writing good Verilog code is an art by itself and requires practice. There are a few online courses available. One possibility to get you started is this [tutorial](https://www.chipverify.com/verilog/verilog-tutorial), but there are many more—Google it!
 
-You definitely should use [linting](https://en.wikipedia.org/wiki/Lint_(software)), means using static code analysis to spot typical errors. Both `iverilog` and `verilator` support code linting, so use both.
+You definitely should use [linting](https://en.wikipedia.org/wiki/Lint_(software)), which means using static code analysis to spot typical errors. Both `iverilog` and `verilator` support code linting, so use both.
 
 For advanced digital designers using [code coverage analysis] (https://github.com/hpretl/verilog-covered) might be an option.
 
@@ -46,6 +46,8 @@ Synthesis is also the first step in the [OpenLane](https://github.com/The-OpenRO
 ![OpenLane flow](https://github.com/The-OpenROAD-Project/OpenLane/blob/master/docs/_static/openlane.flow.1.png?raw=true)
 
 The multitude of tools is controlled by settings which are described [here](https://github.com/The-OpenROAD-Project/OpenLane/blob/master/configuration/README.md).
+
+If everything goes well, then the flow runs without errors, especially when it comes to timing. Occasionally, your design might have setup- or hold-time violations that the tools can not fix automatically. In this case, you have to intervene manually, and [this document](https://docs.google.com/document/d/13J1AY1zhzxur8vaFs3rRW9ZWX113rSDs63LezOOoXZ8) can be a starting point where to look for a solution.
 
 ### Installation of Tools and PDK
 
