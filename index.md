@@ -1,5 +1,5 @@
 ---
-title: SSCS OSE
+title: Introduction
 subtitle: IEEE SSCS Open-Source Ecosystem
 description: Introduction and Overview
 ---
