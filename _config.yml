@@ -13,19 +13,19 @@
 #theme                    : "minimal-mistakes-jekyll"
 #remote_theme             : "mmistakes/minimal-mistakes@4.16.6"
 #theme                    : bulma-clean-theme
-remote_theme             : chrisrhymes/bulma-clean-theme
+remote_theme             : "chrisrhymes/bulma-clean-theme"
 #minimal_mistakes_skin    : "contrast" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "SSCS-OSE"
+title                    : "SSCS OSE"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "SSCS-OSE"
+name                     : "IEEE"
 description              : "IEEE SSCS Open-Source Ecosystem"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://sscs-ose.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "sscs-ose/sscs-ose.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/sscs-header-25th.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -109,7 +109,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "SSCS OSE"
+  name             : "IEEE SSCS OSE"
   avatar           : "/assets/images/sscs-header-25th.png"
   bio              : ""
   location         : 

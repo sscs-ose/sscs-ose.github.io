@@ -31,13 +31,13 @@ Writing good Verilog code is an art by itself and requires practice. There are a
 
 You definitely should use [linting](https://en.wikipedia.org/wiki/Lint_(software)), which means using static code analysis to spot typical errors. Both `iverilog` and `verilator` support code linting, so use both.
 
-For advanced digital designers using [code coverage analysis] (https://github.com/hpretl/verilog-covered) might be an option.
+For advanced digital designers using [code coverage analysis](https://github.com/hpretl/verilog-covered) might be an option.
 
 ### Synthesis
 
 Once you have written behavioral code in Verilog, it needs to be translated to register-transfer level (RTL), which is essentially a gate netlist. This step is called synthesis, and the go-to tool for this step is [Yosys](https://github.com/YosysHQ/yosys).
 
-The synthesis step is non-trivial, as there is a difference between the behavioral code that you can write in Verilog and a synthesizable code. We propose to run test syntheses in `yosys` and carefully watch the warnings and errors. 
+The synthesis step is non-trivial, as there is a difference between the behavioral code that you can write in Verilog and a synthesizable code. We propose to run test syntheses in `yosys` and carefully watch the warnings and errors.
 
 ### RTL2GDS
 
@@ -59,4 +59,4 @@ Alternatively, several other solutions are available; you can check the Slack ch
 
 Once your digital IP block is ready, you might want to create an entire IC and send it for fabrication. Getting from an IP block to a complete IC (including pads, ESD protection, power supply network, reset, and clocking circuitry) can be cumbersome.
 
-Luckily, a framework exists, an "empty shell," so to speak, from [efabless](https://efabless.com), called [Caravel](https://github.com/efabless/caravel_user_project). On the efabless homepage, you can find various examples of earlier chip designs. We propose to take one of these designs as a starting base, e.g., [this one](https://github.com/hpretl/iic-audiodac-v1).
+Luckily, a framework exists, an "empty shell," so to speak, from [efabless.com](https://efabless.com), called [Caravel](https://github.com/efabless/caravel_user_project). On the efabless.com homepage, you can find various examples of earlier chip designs. We propose to take one of these designs as a starting base, e.g., [this one](https://github.com/hpretl/iic-audiodac-v1).

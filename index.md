@@ -1,8 +1,8 @@
 ---
 layout: page
-title: SSCS-OSE
+title: SSCS OSE
 subtitle: IEEE SSCS Open-Source Ecosystem
-description: The pages meta description
+description: Introduction and Overview
 ---
 
 This is the homepage of the IEEE Solid-State Circuits Society (SSCS) Open-Source Ecosystem.
@@ -13,7 +13,7 @@ Welcome to the IEEE SSCS Open-Source Ecosystem page! This site aims to provide l
 
 ## General Information About Open-Source IC Design
 
-Open-source IC design tools have come a long way in the last years. While the start can be confusing, plenty of information is freely available on the Internet.
+Open-source IC design tools have come a long way in the last few years. While the start can be confusing, plenty of information is freely available on the Internet.
 
 Please look at Matt Venn's collection of [Awesome opensource ASIC resources](https://github.com/mattvenn/awesome-opensource-asic-resources) to get you started. Many links are collected to several tools and information sites on this GitHub page. Generally, it is good to get a [GitHub](https://github.com) account since many of the relevant SW packages are hosted there.
 
@@ -60,12 +60,13 @@ Despite highly automated digital circuit design, analog circuit design is still 
 If you think analog design is the right thing for you (and hopefully it is!), you can find more information [here](https://sscs-ose.github.io/analog).
 
 ## IEEE SSCS Educational Resources
+
 IEEE SSCS Youtube Channel (circuit insights and various short courses): [https://www.youtube.com/c/IEEESolidStateCircuitsSociety/](https://www.youtube.com/c/IEEESolidStateCircuitsSociety/)
 
 IEEE SSCS Resource Center (extensive archive, free for SSCS members): [https://resourcecenter.sscs.ieee.org/](https://resourcecenter.sscs.ieee.org/)
 
 ## Contact
 
-Contact Harald Pretl at harald dot pretl at jku dot at
+Contact Harald Pretl at h dot pretl at ieee dot org
 
 IEEE website: [https://www.ieee.org](https://www.ieee.org)

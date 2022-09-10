@@ -14,7 +14,7 @@ These steps are detailed in the following sections.
 
 ## Schematic Entry
 
-The recommended schematic entry tool is [Xschem](https://github.com/StefanSchippers/xschem). It is well integrated with the SKY130 PDK, and there is excellent support by the lead developer on Slack.
+The recommended schematic entry tool is [Xschem](https://github.com/StefanSchippers/xschem). It is well integrated with the SKY130 PDK, and there is excellent support from the lead developer on Slack.
 
 `xschem` comes with many tutorials and examples, which you can find [here](http://repo.hu/projects/xschem/xschem_man/xschem_man.html).
 
@@ -33,9 +33,9 @@ For Python-savvy designers, [spyci](https://github.com/gmagno/spyci) might be an
 
 ## Layout Editing
 
-Once the circuit is working to expectation, an IC layout has to be drawn which implements the circuit in question using MOSFETs, resistors, capacitors, and potentially inductors. For creating a full-custom chip layout, two tools are integrated into the `SKY130` environment:
+Once the circuit is working to expectation, an IC layout has to be drawn that implements the circuit in question using MOSFETs, resistors, capacitors, and (potentially) inductors. For creating a full-custom chip layout, two tools are integrated into the `SKY130` environment:
 
-* [Magic VLSI](https://github.com/RTimothyEdwards/magic) is an old tool but still the best option for layout creation. The operation of `magic` is a bit special, and you definitely have to go through the [tutorials](http://opencircuitdesign.com/magic) to understand the usage model. As with any advanced tool, you have to effectively use mouse and keyboard shortcuts. This [cheat sheet](https://github.com/hpretl/iic-osic/blob/main/magic-cheatsheet/magic_cheatsheet.pdf) can help you to get started.
+* [Magic VLSI](https://github.com/RTimothyEdwards/magic) is an old tool but still the best option for layout creation. The operation of `magic` is a bit special, and you have to go through the [tutorials](http://opencircuitdesign.com/magic) to understand the usage model. As with any advanced tool, you have to effectively use mouse and keyboard shortcuts. This [cheat sheet](https://github.com/hpretl/iic-osic/blob/main/magic-cheatsheet/magic_cheatsheet.pdf) can help you to get started.
 * [KLayout](https://www.klayout.de) is a more modern tool and fast working with large GDS files. However, since it lacks parametric layout cells (pcells) for `SKY130` at the moment, its role is mainly for GDS viewing and layer manipulation.
 
 Custom IC layout needs to be learned, so look for guidance and tutorials, e.g., on YouTube, or find a community for support.
