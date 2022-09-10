@@ -4,11 +4,7 @@ subtitle: IEEE SSCS Open-Source Ecosystem
 description: Introduction and Overview
 ---
 
-This is the homepage of the IEEE Solid-State Circuits Society (SSCS) Open-Source Ecosystem.
-
-## About
-
-Welcome to the IEEE SSCS Open-Source Ecosystem page! This site aims to provide links and hints to get you started using open-source IC design tools, especially if you want to participate in the SSCS PICO [Chipathon](https://sscs.ieee.org/about/solid-state-circuits-directions/sscs-pico-design-contest).
+Welcome to the IEEE Solid-State Circuits Society (SSCS) Open-Source Ecosystem (OSE) page! This site aims to provide links and hints to get you started using open-source IC design tools, especially if you want to participate in the SSCS PICO [Chipathon](https://sscs.ieee.org/about/solid-state-circuits-directions/sscs-pico-design-contest).
 
 ## General Information About Open-Source IC Design
 
@@ -33,7 +29,7 @@ While this process is a mature node (and a far cry from a leading nm-FinFET node
 * Support for internal 1.8V with 5.0V I/Os (operable at 2.5V)
 * 1 level of local interconnect
 * 5 levels of metal (inductor-capable)
-* High sheet-rho polysilicon resistor
+* A high sheet-rho polysilicon resistor
 * Optional (dual) MiM capacitors
 * SONOS EEPROM cell
 * HV extended-drain NMOS and PMOS up to 20V
@@ -57,6 +53,10 @@ If you consider Verilog and VHDL old-school (we don't), there is a rich host of 
 Despite highly automated digital circuit design, analog circuit design is still relatively old school. While there are many attempts to automate various steps like device sizing or layout construction, especially for beginners, we propose to use a classical flow: The analog circuits are hand-drawn in a schematic editor, simulated in a SPICE-class simulator, and finally, the IC layout is manually drawn.
 
 If you think analog design is the right thing for you (and hopefully it is!), you can find more information [here](https://sscs-ose.github.io/analog).
+
+## How to Tape-Out an IC
+
+Preparing an IC layout for production in a wafer foundry is a lengthy process, which is described at a high level on [this page](https://sscs-ose.github.io/tapeout).
 
 ## IEEE SSCS Educational Resources
 
