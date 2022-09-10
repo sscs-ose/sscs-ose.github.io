@@ -14,7 +14,7 @@
 remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
 #theme                    : bulma-clean-theme
 #remote_theme             : "chrisrhymes/bulma-clean-theme"
-minimal_mistakes_skin    : "contrast"
+minimal_mistakes_skin    : "default"
 #minimal_mistakes_skin    : "contrast" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
