@@ -4,7 +4,7 @@ subtitle: IEEE SSCS Open-Source Ecosystem
 description: Introduction and Overview
 ---
 
-Welcome to the IEEE Solid-State Circuits Society (SSCS) Open-Source Ecosystem (OSE) page! This site aims to provide links and hints to get you started using open-source IC design tools, especially if you want to participate in the SSCS PICO [Chipathon](https://sscs.ieee.org/about/solid-state-circuits-directions/sscs-pico-design-contest) or the [Code-a-Chip Travel Grant competition](https://sscs.ieee.org/membership/awards/isscc-code-a-chip-travel-grant-awards).
+Welcome to the IEEE Solid-State Circuits Society (SSCS) Open-Source Ecosystem (OSE) page! This site aims to provide links and hints to get you started using open-source IC design tools, especially if you want to participate in the SSCS PICO [Chipathon](https://sscs.ieee.org/about/solid-state-circuits-directions/sscs-pico-design-contest) or the [Code-a-Chip Travel Grant](https://sscs.ieee.org/membership/awards/isscc-code-a-chip-travel-grant-awards) competition.
 
 ## General Information About Open-Source IC Design
 
