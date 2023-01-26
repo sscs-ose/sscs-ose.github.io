@@ -4,7 +4,7 @@ subtitle: IEEE SSCS Open-Source Ecosystem
 description: Introduction and Overview
 ---
 
-Welcome to the IEEE Solid-State Circuits Society (SSCS) Open-Source Ecosystem (OSE) page! This site aims to provide links and hints to get you started using open-source IC design tools, especially if you want to participate in the SSCS PICO [Chipathon](https://sscs.ieee.org/about/solid-state-circuits-directions/sscs-pico-design-contest) or the [Code-a-Chip Travel Grant](https://sscs.ieee.org/membership/awards/isscc-code-a-chip-travel-grant-awards) competition.
+Welcome to the IEEE Solid-State Circuits Society (SSCS) Open-Source Ecosystem (OSE) page! This site aims to provide links and hints to get you started using open-source IC design tools, especially if you want to participate in the SSCS PICO [Chipathon](https://sscs.ieee.org/about/solid-state-circuits-directions/sscs-pico-design-contest) or the [Code-a-Chip Travel Grant](https://github.com/sscs-ose/sscs-ose-code-a-chip.github.io) competition.
 
 ## General Information About Open-Source IC Design
 
@@ -14,7 +14,7 @@ Please look at Matt Venn's collection of [Awesome opensource ASIC resources](htt
 
 In addition to GitHub, [YouTube](https://www.youtube.com) is a treasure trove of helpful information. Many users have published tutorials; sometimes, the lead developers of essential tools publish How-To videos themselves. Once you know what to look for, you will be able to find it. *Hint: Search for a specific tool you want to learn.*
 
-Since the individual open-source SW packages evolve quickly, documentation is often lacking behind. Luckily, the open-source developer community is accessible, and very often, you can reach them directly on Slack to help you out. You should get access to [skywater-pdk.slack.com](skywater-pdk.slack.com) as this is the watering hole where everyone meets. There is also a dedicated channel for the 2022 Chipathon (**#ieee-sscs-dc-22**).
+Since the individual open-source SW packages evolve quickly, documentation is often lacking behind. Luckily, the open-source developer community is accessible, and very often, you can reach them directly on Slack to help you out. You should request access to the [opensource-silicon Slack space](https://invite.skywater.tools/) as this is the watering hole where everyone meets. There is also a dedicated channel for the 2022 Chipathon (**#ieee-sscs-dc-22**).
 
 And finally: Visit our [IEEE SSCS page](https://sscs.ieee.org) for all kinds of information related to solid-state circuits, like tutorials, conferences, publications, etc.
 
