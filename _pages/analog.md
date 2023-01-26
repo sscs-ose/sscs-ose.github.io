@@ -50,6 +50,6 @@ It is thus good practice to extract a netlist from the layout consisting of the 
 
 ### Installation of Tools and PDK
 
-As you can imagine, setting up all these tools is involved, and there are various How-To available on the internet. The quick solution is to use a ready-made Docker container, which you can find either [here](https://github.com/efabless/foss-asic-tools) or [here](https://github.com/hpretl/iic-osic-tools) (the later Docker image runs on `x86_64` and `aarch64`).
+As you can imagine, setting up all these tools is involved, and there are various How-Tos available on the internet. The quick solution is to use a ready-made Docker container, as made available for instance by the Institute for Integrated Circuits at the Johannes Kepler University [GitHub link](https://github.com/hpretl/iic-osic-tools). An alternative for self-installation are the scripts provided by @proppy [GitHub link]([https://github.com/proppy/conda-eda/releases/]).
 
 Of course, there are many more possibilities to set up your personal EDA environment.
