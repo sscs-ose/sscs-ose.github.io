@@ -64,6 +64,10 @@ IEEE SSCS Youtube Channel (circuit insights and various short courses): [https:/
 
 IEEE SSCS Resource Center (extensive archive, free for SSCS members): [https://resourcecenter.sscs.ieee.org/](https://resourcecenter.sscs.ieee.org/)
 
+## Tutorials
+
+* [Introduction by Stefan Schippers on xschem and schematic entry](https://www.youtube.com/watch?v=q3ZcpSkVVuc) for analog design, moderated by Matt Venn.
+
 ## Contact
 
 Contact Harald Pretl at h dot pretl at ieee dot org
