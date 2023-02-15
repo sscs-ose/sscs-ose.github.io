@@ -85,6 +85,8 @@ IEEE SSCS Resource Center (extensive archive, free for SSCS members): [https://r
 ## Tutorials
 
 * [Introduction by Stefan Schippers on xschem and schematic entry](https://www.youtube.com/watch?v=q3ZcpSkVVuc) for analog design, moderated by Matt Venn.
+* This [YouTube tutorial](https://www.youtube.com/watch?v=RPppaGdjbj0) shows how to lay out an analog inverter using [magic](http://opencircuitdesign.com/magic).
+* In order to get started on analog circuit design, this [free ebook](https://github.com/bmurmann/Book-on-MOS-stages) by Boris Murmann is a good read.
 
 ## Contact
 
