@@ -10,19 +10,21 @@ Welcome to the IEEE Solid-State Circuits Society (SSCS) Open-Source Ecosystem (O
 
 Open-source IC design tools have come a long way in the last few years. While the start can be confusing, plenty of information is freely available on the Internet.
 
-Please look at Matt Venn's collection of [Awesome opensource ASIC resources](https://github.com/mattvenn/awesome-opensource-asic-resources) to get you started. Many links are collected to several tools and information sites on this GitHub page. Generally, it is good to get a [GitHub](https://github.com) account since many of the relevant SW packages are hosted there.
+To get you started, please look at Matt Venn's collection of [Awesome opensource ASIC resources](https://github.com/mattvenn/awesome-opensource-asic-resources). This GitHub page collects many links to several tools and information sites. Generally, it is good to get a [GitHub](https://github.com) account since many of the relevant SW packages are hosted there.
 
 In addition to GitHub, [YouTube](https://www.youtube.com) is a treasure trove of helpful information. Many users have published tutorials; sometimes, the lead developers of essential tools publish How-To videos themselves. Once you know what to look for, you will be able to find it. *Hint: Search for a specific tool you want to learn.*
 
-Since the individual open-source SW packages evolve quickly, documentation is often lacking behind. Luckily, the open-source developer community is accessible, and very often, you can reach them directly on Slack to help you out. You should request access to the [opensource-silicon Slack space](https://invite.skywater.tools/) as this is the watering hole where everyone meets. There is also a dedicated channel for the 2022 Chipathon (**#ieee-sscs-dc-22**).
+Since the individual open-source SW packages evolve quickly, documentation is often lacking behind. Luckily, the open-source developer community is accessible, and very often, you can reach them directly on Slack to help you out. You should request access to the [opensource-silicon Slack space](https://invite.skywater.tools/) as this is the watering hole where everyone meets. There is also a dedicated channel for the 2023 Chipathon (**#ieee-sscs-dc-23**).
 
 And finally: Visit our [IEEE SSCS page](https://sscs.ieee.org) for all kinds of information related to solid-state circuits, like tutorials, conferences, publications, etc.
 
-## SkyWater Technologies SKY130
+## Open-Source PDKs
 
-Open-source IC design tools would not work without a proper set of documentation, simulation models, pre-made digital cells, and runset files. These collaterals are usually called a Process Development Kit (**PDK**), and luckily, there exists one open-source PDK from [SkyWater Technology](https://www.skywatertechnology.com).
+Open-source IC design tools would not work without documentation, simulation models, pre-made digital cells, and runset files. These collaterals are usually called a Process Development Kit (**PDK**), and luckily, there exist open-source PDKs from multiple wafer foundries.
 
-Usually, PDKs are only shared under strict non-disclosure agreements (NDA), but not in this case. [In this location](https://skywater-pdk.readthedocs.io) (and also here on [GitHub](https://github.com/google/skywater-pdk)), you can find a host of helpful information about the available 130nm CMOS process.
+### SkyWater Technology SKY130
+
+Usually, PDKs are only shared under strict non-disclosure agreements (NDA), but not in this PDK from [SkyWater Technology](https://www.skywatertechnology.com). [In this location](https://skywater-pdk.readthedocs.io) (and also here on [GitHub](https://github.com/google/skywater-pdk)), you can find a host of helpful information about this available 130nm CMOS process.
 
 While this process is a mature node (and a far cry from a leading nm-FinFET node), it has a rich list of process options and features, which is more than sufficient for many analog and digital designs, and even RF up to a few GHz:
 
@@ -37,6 +39,18 @@ While this process is a mature node (and a far cry from a leading nm-FinFET node
 Here is an excellent [device overview](https://skywater-pdk.readthedocs.io/en/main/rules/device-details.html) of this technology. There is also a rich set of [digital standard cells](https://skywater-pdk.readthedocs.io/en/main/contents/libraries/foundry-provided.html) available.
 
 In [this sheet](https://docs.google.com/spreadsheets/d/1oL6ldkQdLu-4FEQE0lX6BcgbqzYfNnd1XA8vERe0vpE), you can find a summary of the various mask (GDS) layers, wiring resistance and capacitance, and electromigration rules.
+
+### Global Foundries GF180MCU
+
+Another example of an open-source PDK is from [Global Foundries](https://gf.com). This 180nm CMOS process is documented [here](https://gf180mcu-pdk.readthedocs.io/en/latest/) and [here](https://github.com/google/gf180mcu-pdk), and provides the following features:
+
+* Support for 3.3V/5V/6V MOSFET (minimum length of 280nm)
+* A 10V N-MOSFET and P-MOSFET LDMOS
+* Optional High sheet-rho polysilicon resistors
+* Optional MIM capacitor
+* Different metallization options (from 2 up to 6 metal layers, with optional thick-metal)
+
+The different available devices in this technology can be found [here](https://gf180mcu-pdk.readthedocs.io/en/latest/analog/spice/elec_specs/elec_specs.html), and the metallization schemes are described [here](https://gf180mcu-pdk.readthedocs.io/en/latest/analog/layout/inter_specs/inter_specs.html). There are also [digital standard cells](https://gf180mcu-pdk.readthedocs.io/en/latest/digital/standard_cells/standard_cells.html) and [memories](https://gf180mcu-pdk.readthedocs.io/en/latest/IPs/SRAM/sram.html) available. A [pad library](https://gf180mcu-pdk.readthedocs.io/en/latest/IPs/IO/gf180mcu_fd_io/index.html) is also offered.
 
 ## Digital IC Design
 
@@ -54,9 +68,13 @@ Despite highly automated digital circuit design, analog circuit design is still 
 
 If you think analog design is the right thing for you (and hopefully it is!), you can find more information [here](https://sscs-ose.github.io/analog).
 
-## How to Tape-Out an IC
+## Open-Source IC Design Tools
 
-Preparing an IC layout for production in a wafer foundry is a lengthy process, which is described at a high level on [this page](https://sscs-ose.github.io/tapeout).
+As stated in the general introduction section, a wide range of open-source tools are available. This variety can be overwhelming initially, and sometimes a local installation on a Linux machine is not straightforward. A few developers try to flatten the learning curve by providing pre-built tool collections. One example is the [IIC-OSIC-TOOLS](https://github.com/iic-jku/iic-osic-tools) collection from Johannes Kepler University, prepared as a virtual machine (VM) using [Docker](https://www.docker.com). This VM has plenty of tools installed (as documented in this [README](https://github.com/iic-jku/iic-osic-tools#readme) file), as well as pre-installed `SKY130` and `GF180MCU` PDKs.
+
+## How to Tape Out an IC
+
+Preparing an IC layout for production in a wafer foundry is a lengthy process described at a high level on [this page](https://sscs-ose.github.io/tapeout).
 
 ## IEEE SSCS Educational Resources
 
@@ -70,6 +88,6 @@ IEEE SSCS Resource Center (extensive archive, free for SSCS members): [https://r
 
 ## Contact
 
-Contact Harald Pretl at h dot pretl at ieee dot org
+Contact Harald Pretl at h dot pretl at ieee dot org.
 
 IEEE website: [https://www.ieee.org](https://www.ieee.org)
