@@ -8,13 +8,13 @@ Welcome to the IEEE Solid-State Circuits Society (SSCS) Open-Source Ecosystem (O
 
 ## General Information About Open-Source IC Design
 
-Open-source IC design tools have come a long way in the last few years. While the start can be confusing, plenty of information is freely available on the Internet.
+Open-source IC design tools have come a long way in recent years. While the start can be confusing, plenty of information is available online.
 
-To get you started, please look at Matt Venn's collection of [Awesome opensource ASIC resources](https://github.com/mattvenn/awesome-opensource-asic-resources). This GitHub page collects many links to several tools and information sites. Generally, it is good to get a [GitHub](https://github.com) account since many of the relevant SW packages are hosted there.
+To start, please look at Matt Venn's collection of [Awesome open-source ASIC resources](https://github.com/mattvenn/awesome-opensource-asic-resources). This GitHub page collects many links to several tools and information sites. Generally, it is good to get a [GitHub](https://github.com) account since many of the relevant SW packages are hosted there.
 
-In addition to GitHub, [YouTube](https://www.youtube.com) is a treasure trove of helpful information. Many users have published tutorials; sometimes, the lead developers of essential tools publish How-To videos themselves. Once you know what to look for, you will be able to find it. *Hint: Search for a specific tool you want to learn.*
+In addition to GitHub, [YouTube](https://www.youtube.com) is a treasure trove of helpful information. Many users have published tutorials; sometimes, the lead developers of essential tools publish How-To videos themselves. Once you know what to look for, you can find it. *Hint: Search for a specific tool you want to learn.*
 
-Since the individual open-source SW packages evolve quickly, documentation is often lacking behind. Luckily, the open-source developer community is accessible, and very often, you can reach them directly on Slack to help you out. You should request access to the [opensource-silicon Slack space](https://invite.skywater.tools/) as this is the watering hole where everyone meets. There is also a dedicated channel for the 2023 Chipathon (**#ieee-sscs-dc-23**).
+Since the individual open-source SW packages evolve quickly, documentation is often lacking behind. Luckily, the open-source developer community is accessible, and you can often reach them directly on Slack to help you out. You should request access to the [opensource-silicon Slack space](https://invite.skywater.tools/) as this is the watering hole where everyone meets. There is also a dedicated channel for the 2023 Chipathon (**#ieee-sscs-dc-23**).
 
 And finally: Visit our [IEEE SSCS page](https://sscs.ieee.org) for all kinds of information related to solid-state circuits, like tutorials, conferences, publications, etc.
 
@@ -58,7 +58,7 @@ Digital circuit design in the modern era uses a flow, usually starting with a hi
 
 Once you are happy with your behavioral model, a suite of tools takes you from Verilog to **GDS** (the geometric mask data file format you send for production to a foundry). This methodology is called **RTL2GDS**, and [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane) is the flow we propose to use.
 
-Find more information on how to approach a digital design [see here](https://sscs-ose.github.io/digital).
+Find more information on approaching a digital design [see here](https://sscs-ose.github.io/digital).
 
 If you consider Verilog and VHDL old-school (we don't), there is a rich host of advanced methodologies collected by [Andreas Olofsson](https://github.com/aolofsson/awesome-hardware-tools) to get you started.
 
@@ -70,7 +70,9 @@ If you think analog design is the right thing for you (and hopefully it is!), yo
 
 ## Open-Source IC Design Tools
 
-As stated in the general introduction section, a wide range of open-source tools are available. This variety can be overwhelming initially, and sometimes a local installation on a Linux machine is not straightforward. A few developers try to flatten the learning curve by providing pre-built tool collections. One example is the [IIC-OSIC-TOOLS](https://github.com/iic-jku/iic-osic-tools) collection from Johannes Kepler University, prepared as a virtual machine (VM) using [Docker](https://www.docker.com). This VM has plenty of tools installed (as documented in this [README](https://github.com/iic-jku/iic-osic-tools#readme) file), as well as pre-installed `SKY130` and `GF180MCU` PDKs.
+As stated in the general introduction section, many open-source tools are available. This variety can be overwhelming initially, and sometimes a local installation on a Linux machine is not straightforward. A few developers try to flatten the learning curve by providing pre-built tool collections. One example is the [IIC-OSIC-TOOLS](https://github.com/iic-jku/iic-osic-tools) collection from Johannes Kepler University, prepared as a virtual machine (VM) using [Docker](https://www.docker.com). This VM has plenty of tools installed (as documented in this [README](https://github.com/iic-jku/iic-osic-tools#readme) file), as well as pre-installed `SKY130` and `GF180MCU` PDKs.
+
+For `GF180MCU` there are these installation How-Tos available for a local installation on a Linux machine: the first for a [digital implementation flow](https://docs.google.com/presentation/d/e/2PACX-1vQSIPOF7jcEMJU42peqgD_tdGL8rAlxVTLwA2daGg64LXHnJMKNcNT7v65VVZJYHxXhHrrncICDMuQu/pub?start=false&loop=false&delayms=3000), and the second for an [analog design flow](https://docs.google.com/document/d/e/2PACX-1vRECwewA70ctP5TBVgbZeWb-UlGH98j3tYAJTxBgElU9KkTXssV99cv76u4oCRUPRMyw4c4O0OEcTis/pub).
 
 ## How to Tape Out an IC
 
@@ -86,7 +88,7 @@ IEEE SSCS Resource Center (extensive archive, free for SSCS members): [https://r
 
 * [Introduction by Stefan Schippers on xschem and schematic entry](https://www.youtube.com/watch?v=q3ZcpSkVVuc) for analog design, moderated by Matt Venn.
 * This [YouTube tutorial](https://www.youtube.com/watch?v=RPppaGdjbj0) shows how to lay out an analog inverter using [magic](http://opencircuitdesign.com/magic).
-* In order to get started on analog circuit design, this [free ebook](https://github.com/bmurmann/Book-on-MOS-stages) by Boris Murmann is a good read.
+* To get started on analog circuit design, this [free ebook](https://github.com/bmurmann/Book-on-MOS-stages) by Boris Murmann is a good read.
 
 ## Contact
 
