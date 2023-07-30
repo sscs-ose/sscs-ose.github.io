@@ -22,13 +22,13 @@ locale                   : "en-US"
 title                    : "SSCS Open-Source Ecosystem"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Boris Murmann"
-description              : "Murmann Research Group"
-url                      : "https://murmann-group.github.io/"
+name                     : "IEEE"
+description              : "IEEE SSCS Open-Source Ecosystem"
+url                      : "https://sscs-ose.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "murmann-group.github.io"
+repository               : "sscs-ose/sscs-ose.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : #"/assets/images/sscs-header-25th.png"
+logo                     : "/assets/images/sscs-header-25th.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -110,11 +110,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Boris Murmann"
+  name             : "IEEE SSCS OSE"
   avatar           : "/assets/images/SSCS_logo.jpg"
   bio              : ""
   location         :  
-  email            : "bmurmann@hawaii.edu"
+  email            : "h.pretl@ieee.org"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
